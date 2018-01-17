@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Cookies",
   "description": "Control global browser cookies",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "scripts": [
       "background.js"
@@ -20,7 +20,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "cookies@happy-ferret.com",
+      "id": "{62e92c1f-0688-4090-b60b-a6c4685dc630}",
       "strict_min_version": "59.0"
     }
   }
