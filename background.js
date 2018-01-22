@@ -6,12 +6,10 @@ class CookieButton {
     }
   
     get ButtonState() {
-      console.log("GET")
       return this.getStorageAsync().then(x => x.buttonState)
     }
   
     set ButtonState(value) {
-      console.log("SET")
       return browser.storage.local.set({ buttonState: value })
     }
   

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Cookies",
   "description": "Control global browser cookies",
-  "version": "1.1",
+  "version": "1.2",
   "background": {
     "scripts": [
       "background.js"
@@ -21,7 +21,7 @@
   "applications": {
     "gecko": {
       "id": "{62e92c1f-0688-4090-b60b-a6c4685dc630}",
-      "strict_min_version": "59.0"
+      "strict_min_version": "59.0a1"
     }
   }
 }
